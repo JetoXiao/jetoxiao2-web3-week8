@@ -1,0 +1,40 @@
+tx2 = await casino.acceptBet(hashA, valBwin, {value: 1e5})
+tx1 = await casino.proposeBet(hashA,{ value: 1e5})
+const valBwin = ethers.utils.keccak256(0x600D60A7)
+const hashA = ethers.utils.keccak256(valA)
+const valA = ethers.utils.keccak256(0xBAD060A7)
+tx2 = await casino.acceptBet(hashA, valBwin, {value: 1e5})
+tx1 = await casino.proposeBet(hashA,{ value: 1e5})
+const valBwin = ethers.utils.keccak256(0x600D60A7)
+const hashA = ethers.utils.keccak256(valA)
+const valA = ethers.utils.keccak256(0xBAD060A7)
+tx1 = await casino.proposeBet(hashA,{ value: 1e5})
+const valBwin = ethers.utils.keccak256(0x600D60A7)
+const hashA = ethers.utils.keccak256(valA)
+const valA = ethers.utils.keccak256(0xBAD060A7)
+tx1 = await casino.proposeBet(hashA,{ value: 1e5})
+const valBwin = ethers.utils.keccak256(0x600D60A7)
+const hashA = ethers.utils.keccak256(valA)
+const valA = ethers.utils.keccak256(0xBAD060A7)
+casino = await factory.deploy()
+factory = await factory
+casino = await factory.deploy()
+# 部署合约 你的optimism一定要有费用，具体的可以看下面怎么给optimism充值
+factory = await factory
+# 下面这条命令会返回我们bytecode等信息
+factory = ethers.getContractFactory("Casino")
+#开始编译合约 
+factory = ethers.getContractFactory("Casino")
+BigNumber { value: "48335146483888624" }
+balance0 = await ethers.provider.getBalance((await ethers.getSigner()).address)
+signer = await ethers.getSigner();
+tx1 = await casino.proposeBet(hashA,{ value: 1e5})
+const valBwin = ethers.utils.keccak256(0x600D60A7)
+const hashA = ethers.utils.keccak256(valA)
+const valA = ethers.utils.keccak256(0xBAD060A7)
+casino = await factory.deploy()
+factory = await factory
+factory = ethers.getContractFactory("Casino")
+BigNumber { value: "48335146483888624" }
+balance0 = await ethers.provider.getBalance((await ethers.getSigner()).address)
+signer = await ethers.getSigner();
